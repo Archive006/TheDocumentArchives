@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<h1>Admin Panel</h1>
+
+<h2>Create Member Profile</h2>
+
+<input id="name" placeholder="Name">
+
+<input id="surname" placeholder="Surname">
+
+<input id="title" placeholder="Title">
+
+<input id="number" placeholder="Member Number">
+
+<input id="photo" placeholder="Photo URL">
+
+<br><br>
+
+<label><input type="checkbox" id="vAdmin">Admin</label>
+<label><input type="checkbox" id="vMember">Member</label>
+<label><input type="checkbox" id="vPastor">Pastor</label>
+
+<br><br>
+
+<button onclick="addMember()">Save Member</button>
+
+<h2>Pending Event Requests</h2>
+
+<div id="requests"></div>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>
